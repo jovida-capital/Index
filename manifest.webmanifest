@@ -1,0 +1,70 @@
+{
+  "name": "Jovida — mes applications",
+  "short_name": "Jovida",
+  "description": "Accès à FinVault, Maillage et Emploi à domicile depuis une seule application.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#14171C",
+  "theme_color": "#14171C",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "FinVault",
+      "short_name": "FinVault",
+      "url": "/FinVault/",
+      "icons": [
+        {
+          "src": "/FinVault/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Maillage",
+      "short_name": "Maillage",
+      "url": "/Maillage/",
+      "icons": [
+        {
+          "src": "/Maillage/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Emploi à domicile",
+      "short_name": "Emploi",
+      "url": "/emploi_domicile/",
+      "icons": [
+        {
+          "src": "icon-emploi-domicile.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
